@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-04",
+  "svgFilesParsed": 46,
+  "imageFilesVerified": 255,
+  "wordLayouts": 11,
+  "logoPartsPerPose": 6,
+  "logoTopology": "8 matched points per segment across three poses",
+  "guideDurationSeconds": 75,
+  "rgbaVideoFrames": 241,
+  "alphaCheckedFrames": [
+    1,
+    121,
+    181,
+    241
+  ],
+  "backgroundAlpha": 0,
+  "htmlBrokenLinks": [],
+  "previewRenderer": "Sharp / librsvg, embedded raster data",
+  "visualReview": [
+    "generated image plates",
+    "logo",
+    "five styleframes",
+    "presenter contact sheet",
+    "keyed hand gesture"
+  ],
+  "notYetVerified": [
+    "75-second final animation",
+    "final mixed audio and dialogue semantics",
+    "final Remotion render"
+  ],
+  "cliAuthentication": "Logged in confirmed in normal execution environment; restricted environment obscures auth"
+}

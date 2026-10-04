@@ -1,0 +1,26 @@
+{
+  "video": "/Users/yuta.okada/Downloads/UNBOUND-materials-2026-10-04/motion-project/out/unbound-75s.mp4",
+  "sha256": "86dcdb60cec4d4823640b787203e2bc1f22a99a21b404fa27d20accd093730c9",
+  "spec": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frames": 2250,
+    "seconds": 75,
+    "videoCodec": "h264",
+    "audioCodec": "aac"
+  },
+  "checks": [
+    "Opus typecheck passed",
+    "Opus 16 existing tests passed",
+    "Root inspected 43 extracted frames plus scene boundary sheets",
+    "Audio peak measured -2.4 dBFS",
+    "Player opened and playing without media error",
+    "Browser continuously played from start through final logo without media errors"
+  ],
+  "limitations": [
+    "Audio listening not independently verified",
+    "Presenter source is 854x480; composed at modest size"
+  ],
+  "editableProjectZip": "/Users/yuta.okada/Downloads/UNBOUND-editable-project.zip"
+}

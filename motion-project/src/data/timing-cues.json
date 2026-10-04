@@ -1,0 +1,58 @@
+{
+  "bpm": 128,
+  "fps": 30,
+  "durationSeconds": 75,
+  "durationFrames": 2250,
+  "sections": [
+    {
+      "id": "ignition",
+      "startSeconds": 0,
+      "endSeconds": 5.625,
+      "startFrame": 0,
+      "endFrameExclusive": 169
+    },
+    {
+      "id": "pressure",
+      "startSeconds": 5.625,
+      "endSeconds": 16.875,
+      "startFrame": 169,
+      "endFrameExclusive": 506
+    },
+    {
+      "id": "chain",
+      "startSeconds": 16.875,
+      "endSeconds": 28.125,
+      "startFrame": 506,
+      "endFrameExclusive": 844
+    },
+    {
+      "id": "portal",
+      "startSeconds": 28.125,
+      "endSeconds": 41.25,
+      "startFrame": 844,
+      "endFrameExclusive": 1238
+    },
+    {
+      "id": "human-question",
+      "startSeconds": 41.25,
+      "endSeconds": 48.75,
+      "startFrame": 1238,
+      "endFrameExclusive": 1462
+    },
+    {
+      "id": "release",
+      "startSeconds": 48.75,
+      "endSeconds": 65.625,
+      "startFrame": 1462,
+      "endFrameExclusive": 1969
+    },
+    {
+      "id": "resolve",
+      "startSeconds": 65.625,
+      "endSeconds": 75,
+      "startFrame": 1969,
+      "endFrameExclusive": 2250
+    }
+  ],
+  "note": "Guide only. Human speech is not synthesized here; duck music around the external presenter clip. Align hand contact to actual generated performance."
+}

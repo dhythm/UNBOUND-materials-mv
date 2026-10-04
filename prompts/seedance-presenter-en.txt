@@ -1,0 +1,13 @@
+Attach images/04-presenter-green.png as the actor identity, wardrobe, composition and lighting reference. Request one approximately 8-second, landscape 16:9, 1080p shot if supported by the service. Generate only one initial take.
+
+Preserve the same fictional adult presenter, face, hair, off-white overshirt, dark high-neck shirt, neutral white studio lighting and head-to-hip framing. One continuous locked-camera shot against the same evenly lit chroma green background.
+
+For roughly the first half-second, the presenter looks into camera and holds naturally. Then, with gentle curiosity and a slight smile, the presenter says exactly once in natural Japanese: 「これ、どうやってAIで作るんだろう？」. The mouth movements match the spoken Japanese. Keep body and hands relatively still while speaking.
+
+After finishing the sentence, raise the presenter's own LEFT hand, which appears on the RIGHT side of the image, to chest level. With relaxed fingers and an open palm, make one small, slow outward pushing gesture toward screen right. Keep the entire hand and elbow inside the frame. Briefly hold the extended hand, then return the gaze to camera. This empty-space gesture will be matched to animated typography during editing.
+
+Maintain one stable identity and believable anatomy throughout. Keep the background green and clean, without moving shadows, texture or green spill. No text, subtitles, logos, props, microphone, added people, music, cuts, camera movement or zoom. Do not generate any typography or motion graphics in this shot.
+
+If the service supports speech audio, generate the specified Japanese line without music. If the speech is imperfect but the performance is usable, retain the take and record replacement voice separately rather than repeatedly generating the video.
+
+Save the delivered take as video-inbox/presenter-green.mp4. The editor will key it, trim it, and match text contact to the actual hand movement. The approximate timing above is direction, not a guarantee of frame-accurate output.

@@ -1,0 +1,23 @@
+# Dependencies and generated Remotion output
+node_modules/
+build/
+out/
+.cache/
+.remotion/
+coverage/
+*.tsbuildinfo
+
+# Local runtime logs and sessions
+*.log
+*.jsonl
+handoff/opus-session.json
+
+# Local environment and OS files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Delivery archives
+*.zip

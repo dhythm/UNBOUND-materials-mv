@@ -1,0 +1,3616 @@
+{
+  "title": "UNBOUND",
+  "createdDate": "2026-10-04",
+  "timezone": "Asia/Tokyo",
+  "stage": "materials-ready",
+  "target": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "seconds": 75
+  },
+  "imageGeneration": {
+    "tool": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "promptsDirectory": "prompts"
+  },
+  "presenterVideo": {
+    "status": "received-and-keyed",
+    "additionalGenerations": 0,
+    "nativeSize": [
+      854,
+      480
+    ],
+    "rgbaFrameCount": 241,
+    "framesFps": 30,
+    "notes": "handoff/RECEIVED_VIDEO_NOTES.md"
+  },
+  "files": [
+    {
+      "path": ".DS_Store",
+      "bytes": 6148,
+      "sha256": "9a6ad84c1271cd2b6deca8fc1ba83e14632eeb1794a1d2d61372a1c8c811fa06"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4400,
+      "sha256": "402e560cfcfb8452ac0e2d1162a868548d03387efbeae250debd4ce27528d816"
+    },
+    {
+      "path": "audio/impact-low.wav",
+      "bytes": 105644,
+      "sha256": "993c20e58126aacf719e15d9785aeceea7b76b5b15a086451d9af6aeab40cc3e",
+      "sampleRate": 48000,
+      "channels": 2,
+      "durationSeconds": 0.55,
+      "samplePeak": 0.656951904296875
+    },
+    {
+      "path": "audio/lock-final.wav",
+      "bytes": 134444,
+      "sha256": "8e6e1e2b44b51cb6f5eb403d50c490499b135575873221079f70de862b8e2450",
+      "sampleRate": 48000,
+      "channels": 2,
+      "durationSeconds": 0.7,
+      "samplePeak": 0.95233154296875
+    },
+    {
+      "path": "audio/metal-flex.wav",
+      "bytes": 268844,
+      "sha256": "cd9a4cdfc04e80dcfa4643bcbfece062f27f861f0cd21131a074dbd6c0c85304",
+      "sampleRate": 48000,
+      "channels": 2,
+      "durationSeconds": 1.4,
+      "samplePeak": 0.95233154296875
+    },
+    {
+      "path": "audio/release-sweep.wav",
+      "bytes": 268844,
+      "sha256": "83cd5b5c539f6f3f54c4d3f04367749a97b6182b29ac6e0c4e61a6075ea414d6",
+      "sampleRate": 48000,
+      "channels": 2,
+      "durationSeconds": 1.4,
+      "samplePeak": 0.460845947265625
+    },
+    {
+      "path": "audio/rhythm-guide-128bpm-75s.wav",
+      "bytes": 14400044,
+      "sha256": "fee2505bd6c09b9ee5a007af5723021191558169e6460ca1703ce14c8ee647ef",
+      "sampleRate": 48000,
+      "channels": 2,
+      "durationSeconds": 75.0,
+      "samplePeak": 0.367950439453125
+    },
+    {
+      "path": "audio/snap-click.wav",
+      "bytes": 30764,
+      "sha256": "4bdcf05db6aa0577797bc706d7685772fd9c9b5e60f8f72ef151a9b5163b87c0",
+      "sampleRate": 48000,
+      "channels": 2,
+      "durationSeconds": 0.16,
+      "samplePeak": 0.353973388671875
+    },
+    {
+      "path": "audio/tension-rise.wav",
+      "bytes": 480044,
+      "sha256": "7cbb3e578beb3e3f86eb5aaf75cb8c62111aaa23a190d3eb7f9f6795d8d90f5d",
+      "sampleRate": 48000,
+      "channels": 2,
+      "durationSeconds": 2.5,
+      "samplePeak": 0.522003173828125
+    },
+    {
+      "path": "audio/timing-cues.json",
+      "bytes": 1308,
+      "sha256": "7a67ef69719f9f5a6f463b991ce13ff5e94e00bb6820738c0e747f44275dc97d"
+    },
+    {
+      "path": "handoff/CODEX_HANDOFF.md",
+      "bytes": 2235,
+      "sha256": "99279cfa48a5fa2994264b5b9ec429bf89f1a22d69c404ae1e25a7a9ae1ea087"
+    },
+    {
+      "path": "handoff/OPUS_BRIEF.md",
+      "bytes": 10722,
+      "sha256": "cb890b15f47bcad2a48a0a5c2f2cc003491ceb6c97ae7cc63e5f47b7510ef3f1"
+    },
+    {
+      "path": "handoff/RECEIVED_VIDEO_NOTES.md",
+      "bytes": 2617,
+      "sha256": "9a610cda27cadadc1a7825ba2c6ffd3042e55abd85ca195e4921bc509d120b43"
+    },
+    {
+      "path": "handoff/build_materials.py",
+      "bytes": 9346,
+      "sha256": "21927bacadd8649a1b8986e466225e4d12c425f6821a0c07d80b5005221c51ab"
+    },
+    {
+      "path": "handoff/build_previews.py",
+      "bytes": 7590,
+      "sha256": "e03e6646317ba4083db2cdbae24546267ee469dd803e80bc7bc4350f83879d56"
+    },
+    {
+      "path": "handoff/finalize_materials.py",
+      "bytes": 9842,
+      "sha256": "c80c1c3dd8b6639747e2c89ada09818b129579e1933130e01f22ab5421da56bd"
+    },
+    {
+      "path": "handoff/key-presenter.sh",
+      "bytes": 1002,
+      "sha256": "dc6963ead2e4195651d839e4918b39cf343e82a660bc0da09224eafcd4f5c5c8"
+    },
+    {
+      "path": "handoff/run-opus.sh",
+      "bytes": 613,
+      "sha256": "b66516492954f09ff893fb5367be7b7813f21189319fd359b8dd8c86ce4bbc41"
+    },
+    {
+      "path": "images/01-pressure.png",
+      "bytes": 1159148,
+      "sha256": "ee898518911a9222f39e970d5460d06ea069bd7bf61e1725ba837a1ef6abbe45",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB"
+    },
+    {
+      "path": "images/02-release.png",
+      "bytes": 738797,
+      "sha256": "81da6df87882aa869060e0177521fbe037d18ffda67e8c9ab7596e2d235624af",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB"
+    },
+    {
+      "path": "images/03-macro.png",
+      "bytes": 1823675,
+      "sha256": "471c55c47eee354ddd5de83a141faa144ec607302bbedfa89cb5a5445c9719ee",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB"
+    },
+    {
+      "path": "images/04-presenter-green.png",
+      "bytes": 1304915,
+      "sha256": "11d2940e665ee5b68dd7aa8bdb4b415f295508e4c78123202c1207ab2168980e",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB"
+    },
+    {
+      "path": "images/05-presenter-cutout.png",
+      "bytes": 552402,
+      "sha256": "3606bb069f6a1d9f2edcfa099f6289999de5247ee6f7abcbafc5286e3b8deb7b",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "index.html",
+      "bytes": 4977,
+      "sha256": "55fa1d844415551e5afc6b3059651f864706d6bc63c7e75f6b032beb76b352a1"
+    },
+    {
+      "path": "previews/01-pressure.png",
+      "bytes": 268620,
+      "sha256": "9d833a8d166413c75988ac7377064124724266f3a62a157f021a1fce8d8813c6",
+      "width": 1440,
+      "height": 810,
+      "mode": "RGBA",
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "previews/01-pressure.svg",
+      "bytes": 1550759,
+      "sha256": "4d20fb1cee6595c18d4372ebebca786f9b746168825fffab26e084348773a660",
+      "viewBox": "0 0 1920 1080"
+    },
+    {
+      "path": "previews/02-portal.png",
+      "bytes": 527694,
+      "sha256": "d28e3439a0897a70e37fcd4a33555629cf8c37bd78c49bd253e82d92c55843aa",
+      "width": 1440,
+      "height": 810,
+      "mode": "RGBA",
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "previews/02-portal.svg",
+      "bytes": 2434250,
+      "sha256": "9fdc6f10160448b58f5e27be8fe85b916cfea378621ab6f0da6752789d446484",
+      "viewBox": "0 0 1920 1080"
+    },
+    {
+      "path": "previews/03-human.png",
+      "bytes": 189399,
+      "sha256": "b6a516737bee3dc530af0af19eb3ea1f7e6aa32dfc83da8bc0685d034e64033a",
+      "width": 1440,
+      "height": 810,
+      "mode": "RGBA",
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "previews/03-human.svg",
+      "bytes": 251464,
+      "sha256": "01811b5f562f6a3bb1a140381a6f1313ba5c496f061aef34d396e477d61ddbb8",
+      "viewBox": "0 0 1920 1080"
+    },
+    {
+      "path": "previews/04-release.png",
+      "bytes": 339871,
+      "sha256": "285de678dc5693638045c1e8f938d5a82b54b8c02e1368524c5b8f001755b478",
+      "width": 1440,
+      "height": 810,
+      "mode": "RGBA",
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "previews/04-release.svg",
+      "bytes": 988811,
+      "sha256": "f4e8e8634c0d1b9b742adc66bcf46d2ffe20791041252ead2caa12dde757fbbc",
+      "viewBox": "0 0 1920 1080"
+    },
+    {
+      "path": "previews/05-resolve.png",
+      "bytes": 62149,
+      "sha256": "f906366a10c464711a6c446b84df1ba02470a62950088ab13e3ccd381be07346",
+      "width": 1440,
+      "height": 810,
+      "mode": "RGBA",
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "previews/05-resolve.svg",
+      "bytes": 4911,
+      "sha256": "90e07d9d3388f24715be3665d1481a8253ff5942f1665713302b42e4cb16ae52",
+      "viewBox": "0 0 1920 1080"
+    },
+    {
+      "path": "previews/logo-loop.png",
+      "bytes": 29527,
+      "sha256": "c2790f6d65b1310987c68599b15530a4a606833abe837123a35fb6e243c66d2a",
+      "width": 800,
+      "height": 800,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "previews/presenter-contact-sheet.png",
+      "bytes": 952434,
+      "sha256": "c245887586a9986034e684931e9301499a459e96af867a9c0caaff3456d68a75",
+      "width": 2560,
+      "height": 720,
+      "mode": "RGB"
+    },
+    {
+      "path": "previews/presenter-frame-start.png",
+      "bytes": 131908,
+      "sha256": "fd2178e4a4bb9aa3e054ec136a65d27c1a477a5f8f5667bf262eb6cc86e8f40d",
+      "width": 854,
+      "height": 480,
+      "mode": "RGB"
+    },
+    {
+      "path": "previews/presenter-gesture-alpha.png",
+      "bytes": 152840,
+      "sha256": "5bfb20c304a5b658642085a3700852b6f45ae57c79b13e90ca9c298507a1c4c5",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "prompts/image-01-pressure.txt",
+      "bytes": 1385,
+      "sha256": "305d202270b78cf8a24060ab6a11122806acce552af4f3cc023c1176b9d65dcd"
+    },
+    {
+      "path": "prompts/image-02-release.txt",
+      "bytes": 1203,
+      "sha256": "03d29f5978880f176e83c04481df7748b9b998d2a74a6e1843d660c41548512a"
+    },
+    {
+      "path": "prompts/image-03-macro.txt",
+      "bytes": 1175,
+      "sha256": "37c6a3aaa608d6935467b0dc8d9e2051073d5d1486b8feb3f4c700cbee2a0ce4"
+    },
+    {
+      "path": "prompts/image-04-presenter-green.txt",
+      "bytes": 1463,
+      "sha256": "a3a8a99ea98328dcefddae0566790493984a8a8b507f1255f03c32623e731c72"
+    },
+    {
+      "path": "prompts/image-05-presenter-cutout.txt",
+      "bytes": 640,
+      "sha256": "3bf37750989d7ade17520ed3e15e94e1dae8fa29bed1d48298f96b60a38ef5ba"
+    },
+    {
+      "path": "prompts/seedance-presenter-en.txt",
+      "bytes": 2042,
+      "sha256": "d33ee8af73ed78f0a9bc1be5ac3aad9dee168b901b7f289696ed04341698e242"
+    },
+    {
+      "path": "prompts/seedance-presenter-ja.txt",
+      "bytes": 2471,
+      "sha256": "43e94c2a10cee0b7de0ca7638f8a0bf41b14135214808b35dead78e25798fa7d"
+    },
+    {
+      "path": "references/REFERENCE_NOTES.md",
+      "bytes": 3324,
+      "sha256": "87bacc5a8e867fd9681c5de693fdf703119a242d3dc1f39ddb5dc40995144a9b"
+    },
+    {
+      "path": "typography/Archivo-Variable.ttf",
+      "bytes": 658596,
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053"
+    },
+    {
+      "path": "typography/NotoSansJP-Variable.ttf",
+      "bytes": 9586480,
+      "sha256": "33119a596d1bfae91165585c90c6e9752cf2c9120b45c18388fb81724b3ec64b"
+    },
+    {
+      "path": "typography/OFL-Archivo.txt",
+      "bytes": 4388,
+      "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b"
+    },
+    {
+      "path": "typography/OFL-NotoSansJP.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "typography/fonts.css",
+      "bytes": 295,
+      "sha256": "877ba8a2ad8284ceb5513cd6492789bb05cae70f0af28fce10c919c01b05355c"
+    },
+    {
+      "path": "typography/glyph-layouts.json",
+      "bytes": 102774,
+      "sha256": "d7d64be41bfb7fb158139e3023c38d214302d311b285c0a43d7de8bd4c0cfa52"
+    },
+    {
+      "path": "typography/glyphs/condensed-A.svg",
+      "bytes": 439,
+      "sha256": "7082472b1ba95ea0bdbb67908a189e30fa1d8fb6ca6e7c092fa8a0d9c910fa91",
+      "viewBox": "0 0 560.0 718.0"
+    },
+    {
+      "path": "typography/glyphs/condensed-B.svg",
+      "bytes": 691,
+      "sha256": "b741ce632e5276f219b0386717822df39420d99316691f05a80c7f9fc7a6706a",
+      "viewBox": "0 0 478.0 718.0"
+    },
+    {
+      "path": "typography/glyphs/condensed-D.svg",
+      "bytes": 531,
+      "sha256": "9e3ecaf90824be74e7fcc25c1ea27913d2c61c70047a3c5a51ddd6919db49777",
+      "viewBox": "0 0 469.0 718.0"
+    },
+    {
+      "path": "typography/glyphs/condensed-E.svg",
+      "bytes": 286,
+      "sha256": "991a3d93bb88577633774af49d7f01efd1a611b4ba31cfe3da000dabf86a156e",
+      "viewBox": "0 0 430.0 718.0"
+    },
+    {
+      "path": "typography/glyphs/condensed-F.svg",
+      "bytes": 278,
+      "sha256": "7139daaa528530cf57d0ee75a6e1c313930194f6bf44be43d46dcac93fcc5e5e",
+      "viewBox": "0 0 387.0 718.0"
+    },
+    {
+      "path": "typography/glyphs/condensed-H.svg",
+      "bytes": 284,
+      "sha256": "99ce5926b6c2df291155fe4d90db0ae1b958a43619a35fae9593e955678a774b",
+      "viewBox": "0 0 463.0 718.0"
+    },
+    {
+      "path": "typography/glyphs/condensed-K.svg",
+      "bytes": 304,
+      "sha256": "ddf7ca1cd3f03d7b464350861bf56ef16471c407fb57a3e8949e6921646bc319",
+      "viewBox": "0 0 505.0 718.0"
+    },
+    {
+      "path": "typography/glyphs/condensed-L.svg",
+      "bytes": 262,
+      "sha256": "6e84599c39bd9d1e158c3bb55815320ddde0dd561503a34ca0b22820e624d2c4",
+      "viewBox": "0 0 412.0 718.0"
+    },
+    {
+      "path": "typography/glyphs/condensed-N.svg",
+      "bytes": 456,
+      "sha256": "bb49a37389fd48798305619d6f8b1578c301a9807d5d42bb38f7fe01683bb985",
+      "viewBox": "0 0 468.0 718.0"
+    },
+    {
+      "path": "typography/glyphs/condensed-O.svg",
+      "bytes": 781,
+      "sha256": "02e3b8aa917b60f5f861040c07e7069883d9e5920bc54447ab2be8ea3b32e1b9",
+      "viewBox": "0 0 524.0 742.0"
+    },
+    {
+      "path": "typography/glyphs/condensed-P.svg",
+      "bytes": 479,
+      "sha256": "e34d5f7d4c74bb31d3847e7e22a7cd3dbdaeccb9321354e0e6dcaa4a898145f8",
+      "viewBox": "0 0 470.0 718.0"
+    },
+    {
+      "path": "typography/glyphs/condensed-R.svg",
+      "bytes": 477,
+      "sha256": "2dae9fcd05f237213f05f32b5973d40c13284d73df49a3874473058f28b03e5a",
+      "viewBox": "0 0 497.0 718.0"
+    },
+    {
+      "path": "typography/glyphs/condensed-S.svg",
+      "bytes": 1167,
+      "sha256": "6d1032f4e1edc4ccac30a018a9a1c759455a3a6fe29459561cf73f565d52dd9a",
+      "viewBox": "0 0 459.0 743.0"
+    },
+    {
+      "path": "typography/glyphs/condensed-U.svg",
+      "bytes": 445,
+      "sha256": "ff85aaa8435eac937969c84572f892b15d02d52304cf8226fd185a6c96ba6693",
+      "viewBox": "0 0 463.0 730.0"
+    },
+    {
+      "path": "typography/glyphs/condensed-W.svg",
+      "bytes": 706,
+      "sha256": "ea0786bb6b6a867e6a6203e67e236441d8c3b031166943b7a66ef612001d2501",
+      "viewBox": "0 0 755.0 718.0"
+    },
+    {
+      "path": "typography/glyphs/japanese-A.svg",
+      "bytes": 794,
+      "sha256": "542c3296d9bd68e697853e2277b5f136c2246451b18f7574b39117396b1051b6",
+      "viewBox": "0 0 678.724 770.821"
+    },
+    {
+      "path": "typography/glyphs/japanese-I.svg",
+      "bytes": 315,
+      "sha256": "4f4405b2f05b582dba99edaafc19a692ce578a393d8180862f0831145ef99e24",
+      "viewBox": "0 0 177.764 770.821"
+    },
+    {
+      "path": "typography/glyphs/wide-A.svg",
+      "bytes": 433,
+      "sha256": "b537a813400ab6f297f805b268b972a21753f1dfd1f5816ad3994dc7a4c02435",
+      "viewBox": "0 0 789.0 718.0"
+    },
+    {
+      "path": "typography/glyphs/wide-B.svg",
+      "bytes": 686,
+      "sha256": "228c28140b22edbc3bbac69ad06f134847ae0af12a1d16e2450e45861d326704",
+      "viewBox": "0 0 694.0 718.0"
+    },
+    {
+      "path": "typography/glyphs/wide-D.svg",
+      "bytes": 526,
+      "sha256": "4b7ae8f66ab6c90bd071c25eaf3c4a00ff3251aead2d11090caa2ddb45af4a7d",
+      "viewBox": "0 0 689.0 718.0"
+    },
+    {
+      "path": "typography/glyphs/wide-I.svg",
+      "bytes": 249,
+      "sha256": "30e74de01d668ab4722774f6732bfe96d2b626824b567def859a84a9d5ebc7d8",
+      "viewBox": "0 0 251.0 718.0"
+    },
+    {
+      "path": "typography/glyphs/wide-N.svg",
+      "bytes": 459,
+      "sha256": "8f9ab9128afe9b9ac33f1ab4a7707298f402007120e9500e6cb5b3897e509901",
+      "viewBox": "0 0 715.0 718.0"
+    },
+    {
+      "path": "typography/glyphs/wide-O.svg",
+      "bytes": 778,
+      "sha256": "f132d0c8a333f7f619265ffe3be2942dee82eb325d2321c53724462a827d4a88",
+      "viewBox": "0 0 773.0 742.0"
+    },
+    {
+      "path": "typography/glyphs/wide-U.svg",
+      "bytes": 444,
+      "sha256": "783a895624cc56e4c795986b6abe761510eb2df78449355f0725eaed2973a23f",
+      "viewBox": "0 0 715.0 730.0"
+    },
+    {
+      "path": "typography/words/ai.svg",
+      "bytes": 560,
+      "sha256": "f3b1bd1dffd13a34d6d17e017a30e773d6455d2a8d92ed849b3e382f40fd57b7",
+      "viewBox": "0 0 1121.0 728.0"
+    },
+    {
+      "path": "typography/words/answer.svg",
+      "bytes": 24763,
+      "sha256": "e835ee90de0351e380075594c3c2bd214cebf0a08c63c1183dafaf942f11aa6a",
+      "viewBox": "0 0 8451.382 987.342"
+    },
+    {
+      "path": "typography/words/break.svg",
+      "bytes": 1552,
+      "sha256": "6a0e676d1fc5b0e4a534b88ba81a7931da133cc9701bcd62f5c3995f70968dfb",
+      "viewBox": "0 0 2586.0 728.0"
+    },
+    {
+      "path": "typography/words/flow.svg",
+      "bytes": 1550,
+      "sha256": "8c234e4d544aca332dfb91b79d2899fbbfe40f299fc0f3a4501031d017e792e4",
+      "viewBox": "0 0 2169.0 752.0"
+    },
+    {
+      "path": "typography/words/hold.svg",
+      "bytes": 1381,
+      "sha256": "cf5231068ebfd84c82f2fa20442583dacb07af0f64ccd051f451a7457574537c",
+      "viewBox": "0 0 2032.0 752.0"
+    },
+    {
+      "path": "typography/words/press.svg",
+      "bytes": 2930,
+      "sha256": "86949abef24f725db8cc38a2484955779d2caab6f409cf5648296972c1447315",
+      "viewBox": "0 0 2451.0 753.0"
+    },
+    {
+      "path": "typography/words/push.svg",
+      "bytes": 1898,
+      "sha256": "88dd7bb0f0f71511724ce4f64c6a67ad30d202cc8a7256f02fb6ab31d8871bca",
+      "viewBox": "0 0 1984.0 753.0"
+    },
+    {
+      "path": "typography/words/question-1.svg",
+      "bytes": 20992,
+      "sha256": "14d777fd61c20ceb7de2022616704006645053ee3b1e978ac63b4f9630da0b6d",
+      "viewBox": "0 0 7949.482 951.343"
+    },
+    {
+      "path": "typography/words/question-2.svg",
+      "bytes": 25380,
+      "sha256": "d6b1979820ff7eccb78c159806c30d83aea5f3f26865a996d76384c22f1d1d12",
+      "viewBox": "0 0 8996.142 975.001"
+    },
+    {
+      "path": "typography/words/unbound-wide.svg",
+      "bytes": 2888,
+      "sha256": "a2f2d674de13cd63c50b18c95021e1f1fa494df1308a8f6ab5f96dd823c2b263",
+      "viewBox": "0 0 5750.0 752.0"
+    },
+    {
+      "path": "typography/words/unbound.svg",
+      "bytes": 2827,
+      "sha256": "11107678b0dcf40e3f0a00cada566d260353e9c17940f28ba0ad0153408dee44",
+      "viewBox": "0 0 3686.0 752.0"
+    },
+    {
+      "path": "vectors/logo-loop.svg",
+      "bytes": 1335,
+      "sha256": "9d07d08de5e64d9057e4f30880e752ad23d1d031c20bbed4db5af9413cee028a",
+      "viewBox": "0 0 400 400"
+    },
+    {
+      "path": "vectors/logo-morph-controls.json",
+      "bytes": 14352,
+      "sha256": "18e58f3c5243e741e5d0f168555a5734992160a655e79b01214c3d58db76b7ac"
+    },
+    {
+      "path": "vectors/logo-pressure.svg",
+      "bytes": 1342,
+      "sha256": "641b3babe8251109dc83f935558cd1088338ec2c321159eca12ebb937bf24c0e",
+      "viewBox": "0 0 400 400"
+    },
+    {
+      "path": "vectors/logo-release.svg",
+      "bytes": 1334,
+      "sha256": "71f88cb1468e2f43ebfd167a487732f94978b1b028352843971dd218cfd35585",
+      "viewBox": "0 0 400 400"
+    },
+    {
+      "path": "vectors/portal.svg",
+      "bytes": 307,
+      "sha256": "9bd37d25486ae1801dd20d14e47c045184ac54cbdbe7d14079bfe1fe224838af",
+      "viewBox": "0 0 600 600"
+    },
+    {
+      "path": "vectors/rail.svg",
+      "bytes": 415,
+      "sha256": "f55362e065486375e09ee82188f27db9c363711ffda82a75a6626cdbc18576d1",
+      "viewBox": "0 0 1920 1080"
+    },
+    {
+      "path": "vectors/ribbon-centerline.svg",
+      "bytes": 333,
+      "sha256": "2e4ce249a9793555b11fef04986032e72097bd977ed2514dda8da8cc8cd4039d",
+      "viewBox": "0 0 1920 1080"
+    },
+    {
+      "path": "video-inbox/README.md",
+      "bytes": 982,
+      "sha256": "b6c3a27200d18bc5914596a26088282a71adfa88db0691dfa9e159f584959dd8"
+    },
+    {
+      "path": "video-inbox/presenter-alpha.webm",
+      "bytes": 824394,
+      "sha256": "7f335f9213d1a134724d2855753b65df8afd778f08ddb77544879c73ddbfa241",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp9",
+            "codec_type": "video",
+            "width": 854,
+            "height": 480,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "tags": {
+              "alpha_mode": "1"
+            }
+          },
+          {
+            "codec_name": "opus",
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "tags": {}
+          }
+        ],
+        "format": {
+          "duration": "8.072000"
+        }
+      }
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0001.png",
+      "bytes": 136245,
+      "sha256": "8ce3ce8ebbcd6b224b4f5c205769a405f39399ce3e0cf49205633eeb464c7012",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0002.png",
+      "bytes": 136245,
+      "sha256": "8ce3ce8ebbcd6b224b4f5c205769a405f39399ce3e0cf49205633eeb464c7012",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0003.png",
+      "bytes": 143281,
+      "sha256": "22b07b08931c0f44354ca1d92da1c1a40c3f60a7c37995ca93d269317ba93f4c",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0004.png",
+      "bytes": 143199,
+      "sha256": "436adffa4d904988e9306b26c1deccd3b0db139f98e3f508fdf46f53eead926f",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0005.png",
+      "bytes": 142458,
+      "sha256": "6c0c9c5dba6c33df76c955218909a50a9daf4d0e4aa1dee15a6665dc6b65bc1e",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0006.png",
+      "bytes": 140193,
+      "sha256": "e2f468bced26a2202db1fc7820b7f2c8b80f084a63d60f5f237a6878a7fb5ead",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0007.png",
+      "bytes": 139131,
+      "sha256": "6108e8024aafeb7540788c95153db8a31393f6010db25bbef7a7a0b15a5cf37a",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0008.png",
+      "bytes": 135850,
+      "sha256": "9c926572b25ce95bbaada0dc42b349934570969d1231ec07f53184add8637252",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0009.png",
+      "bytes": 144486,
+      "sha256": "ff29a0371ccfe41eb7257e7e63aee1cf3d9c8c381d17849349882e6aa29b8733",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0010.png",
+      "bytes": 141960,
+      "sha256": "0f06d25b1eb32103e43696df86d998fdebda5655bdfc4bc1c70e9c78cec92603",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0011.png",
+      "bytes": 141130,
+      "sha256": "89bc45804f19c4184e71f313c32a433475d9e43e06f408cba90322cb1fc30aaa",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0012.png",
+      "bytes": 141123,
+      "sha256": "c3d1ac864d0e7864012e70ac981bb3824543741cb4515ae235e7fec8c9902341",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0013.png",
+      "bytes": 143143,
+      "sha256": "02cddc20822bca97244bcfd38eb9be32247cd9fea1c6f0c5077d612a5e50dc3d",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0014.png",
+      "bytes": 139699,
+      "sha256": "11ca7a662b7e1e03bf71e40ab981db2408b20cc9f813a6d6649d401cf0b5bc8d",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0015.png",
+      "bytes": 138936,
+      "sha256": "40941fc3c59b9907ed020860f7b483fd249acee465dec32a22a25b8ba5f00189",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0016.png",
+      "bytes": 137600,
+      "sha256": "9371f22be8baea57f3be8eb2a89659cf875c391329cf5ae7eb3ebd77b2b9e5d9",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0017.png",
+      "bytes": 148456,
+      "sha256": "abc96235eafcf2c8e5e0aa883b176cdd1e2743849ca0ca4f955ee0edd9ef1e54",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0018.png",
+      "bytes": 146157,
+      "sha256": "c6f9b9a55c5c1a33212eeeaa273d059a3848438106db844a25401dabc41e9f2e",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0019.png",
+      "bytes": 142610,
+      "sha256": "54651ed36bac718a7ecf2559f51d1005c9fcd18b31e7c992457b797f98158cdc",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0020.png",
+      "bytes": 141187,
+      "sha256": "db155e89a9584b5a4431bc93b03a18b2495f7d339b365e03e0fe996e75d2b1b7",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0021.png",
+      "bytes": 147890,
+      "sha256": "7dfe9f5f4748f582702ecb4278297c0ad33d55e34e5687342e8f3ca7c7af3abe",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0022.png",
+      "bytes": 147899,
+      "sha256": "eaf8953b1822fab0047e2b9a0b351e3d8cfcdb38e1989d2cd6ff0b15e620ce4b",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0023.png",
+      "bytes": 146870,
+      "sha256": "45acbf940d2c547dc2c8ba135a22d946b3619552b4c67ed3bf32e4cd85d03a7c",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0024.png",
+      "bytes": 146033,
+      "sha256": "b9a801c49146094cf6c555f2bbc37402cbebd29f314fa155b76a7953d4c6ef91",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0025.png",
+      "bytes": 152825,
+      "sha256": "357f26d5c98de63eab10758b854c475b7227ce66895d89df240a7a0d0a743c55",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0026.png",
+      "bytes": 151831,
+      "sha256": "c9e920f6bee42b595a2f694611a93f48b0149aa3dad82a778729c04d95a3342a",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0027.png",
+      "bytes": 152096,
+      "sha256": "fc79ae6866d184d5da9e70ccc9565790453d7a82d54206654cad0eee59e6f121",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0028.png",
+      "bytes": 142655,
+      "sha256": "c62d30410e5bbbcd78c48ff1ce6250a6d8ba66cc119033289c7304314b8ad0cf",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0029.png",
+      "bytes": 142104,
+      "sha256": "a930652e97816a0809be63e6ed04e76c7b75c24fb73f85dc17c114c0f4076613",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0030.png",
+      "bytes": 141185,
+      "sha256": "a26f13d2565f44335e1eaa0b8ac89d4033ac284803a7662f84fd1caa86af0151",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0031.png",
+      "bytes": 147354,
+      "sha256": "39b2c0c955d88b1790eaf8c77d359123beaa6210072568173165404766503505",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0032.png",
+      "bytes": 147345,
+      "sha256": "256af84135aa2f4287dcee75722441d2d95c5504b3b887b63b6ce665f549cfaa",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0033.png",
+      "bytes": 151659,
+      "sha256": "f6f477d2f7190c776b4e3d588a78afb3d504e7b5f7df6ae99847764b5bb1b794",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0034.png",
+      "bytes": 149866,
+      "sha256": "b025f26b26cc1566d8a92b39f978e5ed4967c8ffe9a1771b91ed9dcaea3c39be",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0035.png",
+      "bytes": 144606,
+      "sha256": "5f0a1ca7781f69cc276e1c620d6915166a0ebad03eb89a7eadee2de8f2c9e5d9",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0036.png",
+      "bytes": 141748,
+      "sha256": "ed90ac6433a181edce7ca58b6871c8b9505aab64ae4ec4b66324251b2525aef5",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0037.png",
+      "bytes": 140417,
+      "sha256": "1ba832b8c83d9e17bd6590ff4dac166780e6602bc12530e46b209c6041ec1d52",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0038.png",
+      "bytes": 138553,
+      "sha256": "09e629cbc620570cc87bc61b76ec46fd739349a6978bf49b77a83c6edd1c2d2a",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0039.png",
+      "bytes": 138197,
+      "sha256": "b64437978bec9a7cc1f3fff3096b199428dc468b8e9be094c046bbaa850d9165",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0040.png",
+      "bytes": 138149,
+      "sha256": "64e0c31c689a9060db00b8b2f861ad0a7c36761e8e89ba60cee0c9a9cc2fc93a",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0041.png",
+      "bytes": 146842,
+      "sha256": "201c79d702c55abda84da300ac370d4f592aae7e98e13cb176973e4c76f48430",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0042.png",
+      "bytes": 146825,
+      "sha256": "7190ce452c4f41b661d74371159d3ef500f7c0d3404744c718b3f32422f33167",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0043.png",
+      "bytes": 145150,
+      "sha256": "3e3801c5f31364338dafb97027065db6eece4d112cab9ed3c7301cf39d57f935",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0044.png",
+      "bytes": 142058,
+      "sha256": "13317d66fc76d95a2e935055c95f51ab097880b89c73f011e678d9e2b65cc097",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0045.png",
+      "bytes": 142204,
+      "sha256": "181100e583d9fe6724cf47d658cd17c02553a11d3bdb2fd2d2f60ecb8f552cf5",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0046.png",
+      "bytes": 141245,
+      "sha256": "d08bc61d54d20a3b8e974b25d0edc6d263e37bcc6579522332a2f121732d0976",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0047.png",
+      "bytes": 140530,
+      "sha256": "df38af205cde66ddb18ea9f25bbffb97ed1c39a18d7548aa22fd14b57e266b37",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0048.png",
+      "bytes": 139690,
+      "sha256": "bad6caf9957f5c3735ec03629342b8d3479c17d658533f8b3a1af5d662f997c0",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0049.png",
+      "bytes": 144887,
+      "sha256": "93265bfb457d660e08d46c4c8bccdcad691d5dcfce85af67f81b3537fb57d4ea",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0050.png",
+      "bytes": 141961,
+      "sha256": "00e49105f8c7b1650cfd7a72c1ca6007401d9ea178a70b8160d5000b015708d5",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0051.png",
+      "bytes": 148869,
+      "sha256": "62e09308e57feb228b0887cbca06bf7181a7b8d85693c46f9ba333bd9a895b46",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0052.png",
+      "bytes": 148863,
+      "sha256": "c133c087b548043bd95bbf2a066ef6c0c9e853e9584ac1338cf05dcfef858518",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0053.png",
+      "bytes": 145634,
+      "sha256": "b7ecf4822e1f63d040a9fe7d577ec448ad7514bf3c47dac3a0f6d3c4f29d1479",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0054.png",
+      "bytes": 142647,
+      "sha256": "fda1efcd0f3ddf6ab5741cc499b317dc58f4136c324d8f7284bbeb46420424ed",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0055.png",
+      "bytes": 140898,
+      "sha256": "a5e7aa37e34a5bae89448f5728b73bedac0e24e90861036e802c7de60a3e408f",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0056.png",
+      "bytes": 139858,
+      "sha256": "5e119dbbc77f2f0df98666cb6d55dc130995fda8e5eaaeab2c3b3c97f1989f30",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0057.png",
+      "bytes": 148604,
+      "sha256": "3b6a9a30dfb41628f70d948e69044b9b22e12dd5c1393a9c83d4f8039e1c18b3",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0058.png",
+      "bytes": 141998,
+      "sha256": "c7fb118a07a59ec33505fa18cde9ee253906c5ff00638b51a9ad3b9e5a76b730",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0059.png",
+      "bytes": 140625,
+      "sha256": "e03549d9e37baf426bbddab38e528f42c8e722d0a0a93f4728b2ecca2adf27aa",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0060.png",
+      "bytes": 139879,
+      "sha256": "c49009b92eebd80f4a91d930b30d1785072ddc0e57731ae452ac7e6ec42d891d",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0061.png",
+      "bytes": 147035,
+      "sha256": "a6184c7cb694598f3613d5062a08bb690b47f649c6499d28be1d68b4a17688b9",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0062.png",
+      "bytes": 147022,
+      "sha256": "55970b1c6921ae12a5d53fc7bb77610c7c7c1cfc10aa75ce9ca0014c456a0e1a",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0063.png",
+      "bytes": 141629,
+      "sha256": "95f0d9c8d78b0620e9edd11936b9f8b6872b4968bda51925d8d354e8d2845eed",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0064.png",
+      "bytes": 141217,
+      "sha256": "c4028da960c20043fff687b8bef35f36dd50f3b1b57b14d3dcb00ea2f5a134e0",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0065.png",
+      "bytes": 144554,
+      "sha256": "e6b86cde878dadb4430b8c0b54a8197b3ca84624c6f25e0438ce628af0b340f6",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0066.png",
+      "bytes": 141482,
+      "sha256": "577012ff7e4dca20f3a04bebc1d505653b528c8c2de412a527f81c254b45fa76",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0067.png",
+      "bytes": 140303,
+      "sha256": "f0379b28a295eabb67000cf2f9f092ca80cb34ac48b5ae45531c567a06603f34",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0068.png",
+      "bytes": 138305,
+      "sha256": "5996ed33e93e37c02a8e5a962e96724808ee3a226053334686893f0a53b8f9ef",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0069.png",
+      "bytes": 139706,
+      "sha256": "99de9b65c327e7abb8b134b6713f1d4ef90aea5223abe0e1706570f1f07e5cac",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0070.png",
+      "bytes": 138796,
+      "sha256": "6937bcaa4dc01a118db8c6638b61ed77477883b5d850191020c67daa7331a5cd",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0071.png",
+      "bytes": 147346,
+      "sha256": "51ac5a731d88d2519fcbd2ac8dc21f1bfbbf7ddd4ea3dd1458fbf1ab8d3023fd",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0072.png",
+      "bytes": 146727,
+      "sha256": "aeed296eedfac7d11c60677e07e8e0cb905d0814845da37d481b53fab48191a0",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0073.png",
+      "bytes": 146272,
+      "sha256": "8d78701dab0087eb8323a03e180d7b3f917c80224bc0fed72196257f1e32458e",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0074.png",
+      "bytes": 144721,
+      "sha256": "7e02f9559e06a6baf1b68b159a896857aa0d32b4069a397ff739665b9c2d41a8",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0075.png",
+      "bytes": 144065,
+      "sha256": "196ff9463f13935d8d727d4a9810ed13095ab6ec0e9c35e3f8d277981116e247",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0076.png",
+      "bytes": 142481,
+      "sha256": "d378d926c6587626785e77d07ea418ad7c193acd8000a4efbcbb8cca486a1b94",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0077.png",
+      "bytes": 141706,
+      "sha256": "f6bb5b9e921ebaa6f82e548c7bcde700a60130638db03ce83f3a518925972d3f",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0078.png",
+      "bytes": 139932,
+      "sha256": "f22dd539d561fb23af9a9ecb13e23db7803e7e5a0443a44fa23383645f927212",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0079.png",
+      "bytes": 140678,
+      "sha256": "daee404633973441347ae4d4abd335a3e528f1557296fba505017977ed38ef16",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0080.png",
+      "bytes": 139676,
+      "sha256": "7d47455b5424e2d51adcf081bcf097fcd241f823e5bae560ddbed7cab9a39888",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0081.png",
+      "bytes": 149449,
+      "sha256": "d8d52da37e0719081e2f3a178075cca63c3a047eb90fa1b29c17acccb91705ef",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0082.png",
+      "bytes": 149715,
+      "sha256": "1b2c09a27020832a0707244cbb02518f665597ec9257b72b09a200334f561780",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0083.png",
+      "bytes": 142766,
+      "sha256": "1cf0ff08a7c178ee7046a2376288b122e92014cacffd61afc4b140570534dac9",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0084.png",
+      "bytes": 142536,
+      "sha256": "6532053fd6fbbe301985f64448d944e03f269cef6fbb2fdf691336f6e5af35f8",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0085.png",
+      "bytes": 142972,
+      "sha256": "54beb0dd68fbb75f34a717fd40893248385b05cbc92cb3c797305c6859fc7905",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0086.png",
+      "bytes": 141741,
+      "sha256": "e8134da633ea14e557200291d1efcea370a46fa22f5c56179210f074392d3062",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0087.png",
+      "bytes": 141754,
+      "sha256": "dc09979753c5ce4a2d343aa83717b6cb218df1e495f957682b7eff4e57a8e883",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0088.png",
+      "bytes": 139017,
+      "sha256": "504040153f2293b70b1a4974619340aee03c1d00ed873c88d98ac64adb87183c",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0089.png",
+      "bytes": 148713,
+      "sha256": "075bed17edfde8b71e044235894b05ba0efea38d3a8efcba36fe092f9e9d252b",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0090.png",
+      "bytes": 144660,
+      "sha256": "f268b67d18fb981b304e9b407170aa286591abc4f66aeba6250e540c6cbba56c",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0091.png",
+      "bytes": 144446,
+      "sha256": "f090c8685ca9089dcc7bc48a0c410361a55772692e42681ff22a1785c1d29770",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0092.png",
+      "bytes": 144406,
+      "sha256": "8bfb2374069de9acea39d1e4f2dcb4cd14626eeb37a68e402434d170f64e288b",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0093.png",
+      "bytes": 147472,
+      "sha256": "c612c62379cf20132db976a4cb04afe4c8a6d7c1f88a501f8efd9e54bdd8cf86",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0094.png",
+      "bytes": 146908,
+      "sha256": "3228d3735f22daa73e4d1c181b9f152438647d559eac9d8daa503e2ea657e52f",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0095.png",
+      "bytes": 146503,
+      "sha256": "ae6bf6f93f852b68b2c125e743009a2fbb09cb3e0833840f5846c71cd8d68446",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0096.png",
+      "bytes": 142648,
+      "sha256": "ab34162c1d5a83af8623319f821da4ed10e34be72edabceb361f895aa7b0e547",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0097.png",
+      "bytes": 150139,
+      "sha256": "f38d0adbf672f003a5bbfd96343511c2439c43340909d427ee840f66110b5936",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0098.png",
+      "bytes": 146510,
+      "sha256": "8cb4fdffd837e6438692119f024acca257412831eb5ce64e76c326474439c89e",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0099.png",
+      "bytes": 141958,
+      "sha256": "73eb25ef0feac35d80f0bcbd67a23a7f51284f7b20047a182de804c10e3b1737",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0100.png",
+      "bytes": 140457,
+      "sha256": "88039111da240419c56ea4c9696d1b780ca652a7f43b085efcdddbcbf6c2e335",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0101.png",
+      "bytes": 149141,
+      "sha256": "886fcc8b40de28972615303ea0a43d02ff5987859016c19e4149ddd537c084b6",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0102.png",
+      "bytes": 149154,
+      "sha256": "d62c1bda43946b8b333621813ad8fb4d595775b54afe39ce8c907833b8e23c82",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0103.png",
+      "bytes": 147928,
+      "sha256": "71036a6c47354e2f0ab1d6a9ecacb3175b0e4c87c17aefa6183e817d53b02bbd",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0104.png",
+      "bytes": 147104,
+      "sha256": "1380b67796f02d0b90e001d5126b750584639595986f28216e003ae76892b79f",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0105.png",
+      "bytes": 152984,
+      "sha256": "eb66f78573aa41157d00aab9ce2a7238e4551efbbdc42d1409e9ad2e5aab07cb",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0106.png",
+      "bytes": 145543,
+      "sha256": "2946b49b8bc6795684b8c388c9e09869ae837a4d7871c5c1ad9f868100275f41",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0107.png",
+      "bytes": 145717,
+      "sha256": "d00f9ada09a98f4fcbd127be4fcf987c1ae3050c6e6dc0be666e9233a611ea4c",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0108.png",
+      "bytes": 141912,
+      "sha256": "14ef6f6324f05d9e4ae855ab7d71c77e777ca6756c21f7709c1affffe210a29d",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0109.png",
+      "bytes": 145777,
+      "sha256": "cbf0a09e8669d5c9421f6e00c128a1cc2a139af8a479a486f6f625b3b74d4555",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0110.png",
+      "bytes": 143362,
+      "sha256": "ad53f217758352b43751f8eec307645d7c90072c7f79410bcac810d27c89b5e2",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0111.png",
+      "bytes": 151329,
+      "sha256": "ed96f8fe990bda0bc2d9f0e45f3efb557946d322af0255c44149cb686c0e8a7a",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0112.png",
+      "bytes": 151317,
+      "sha256": "b89868216a9363d97caf306326f5e847133d07dfa0f592bc941f6d33c5db8798",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0113.png",
+      "bytes": 153573,
+      "sha256": "748be80b9db726d39189e6a7c0771d2a622fd2e43f076632875277ad14d82424",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0114.png",
+      "bytes": 150015,
+      "sha256": "272ce8d31b1b320367024eaf3c44338c96e89d4c3c33bfdf775c709bc629c4ca",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0115.png",
+      "bytes": 146458,
+      "sha256": "b4dcdf648e017cf1f2e705a87de53a706df8bdb6900e0a923197db9c13603bbf",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0116.png",
+      "bytes": 144117,
+      "sha256": "d30442f75aae911a0cf8e2ff5d648a45b8c35322d99e6ae5993f2d4ba16956f8",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0117.png",
+      "bytes": 144904,
+      "sha256": "5d2582e2c42de6c9f0c4672a300762829e0b7f657e69d8471bbb003d6f8e93de",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0118.png",
+      "bytes": 142188,
+      "sha256": "58a7744fcd2e0c2df03c27597dee19b289cad1aca814d947121f68d92d892a2d",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0119.png",
+      "bytes": 143508,
+      "sha256": "52fa63b0d201749cddc6c44eee5650e6789ad8c52d10a14e0dd8ab2b672ad410",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0120.png",
+      "bytes": 143905,
+      "sha256": "ce7781009faaad5ab13a3c6d703650748ce2d3d549809278d40a4f92bc496e08",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0121.png",
+      "bytes": 149184,
+      "sha256": "52457f50f1e180cedd3927115bb5548f2b0b7eb719358cb34963cdd03d808c55",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0122.png",
+      "bytes": 149169,
+      "sha256": "431ed0ae1445b0b665a199ff697b70fe47e49b819bad67294ad923900683b892",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0123.png",
+      "bytes": 145378,
+      "sha256": "b687d478611f281fe14a22e0fc0b1f692ff0f502171b10dac4ec5f5561bc3aed",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0124.png",
+      "bytes": 142662,
+      "sha256": "f7ff7163bb87f2b8777c47b02542d5a4b16e3a2a6bc10dde3cbea0c684cb4a3f",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0125.png",
+      "bytes": 143170,
+      "sha256": "c1378b59597ab71888e55036971b09946c459342879760f6153b0c9712baa781",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0126.png",
+      "bytes": 140534,
+      "sha256": "eabb1ed2cf2f42fbe357776bbff7884d94d8dfe36ff6415e00ffd5b1029d2a99",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0127.png",
+      "bytes": 140515,
+      "sha256": "ccd9b12bb516792ad7f472c53837145144df99ae715b35f96edef611cc6cce2c",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0128.png",
+      "bytes": 139058,
+      "sha256": "f40f850951c86cb39434a0fd840742bd28371f396f69f7188c55d20066335ebe",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0129.png",
+      "bytes": 185122,
+      "sha256": "aaa83c195e5b3c627334de61e991a19276cbe453163675ae1206b008a4cbbbcf",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0130.png",
+      "bytes": 171316,
+      "sha256": "3eadf90553c1453749e5937a2e22207ff2e77d818ffcd9ab4dae9b9864a552dc",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0131.png",
+      "bytes": 155668,
+      "sha256": "7e50ceb90b5dddc093a7d3a7491ae48bee1aefc91c9ea2634a0daf7fccf03225",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0132.png",
+      "bytes": 155489,
+      "sha256": "2b038786be4120301769f8b4dcc65ed5a96c6df64774fdbe50487fc1a0a67bf3",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0133.png",
+      "bytes": 160378,
+      "sha256": "23b69d0087e63dc4a96b55918e4fe326ae72e025679c3571d944680f282a2d0a",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0134.png",
+      "bytes": 156119,
+      "sha256": "0f1e053723298b55cb33de23e475d05de9025e861434ff7c86bb273f6054b83f",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0135.png",
+      "bytes": 153366,
+      "sha256": "21cbfe8fb7eea051660f5070186de97a49d49cc84399c85851803a83b3923dfa",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0136.png",
+      "bytes": 153116,
+      "sha256": "c1853d635a6cf7d16c265c760e68806f02ae8a03fac9f89356fb24fd3d4c1224",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0137.png",
+      "bytes": 166607,
+      "sha256": "d53ecb71ad652721c624cef1489952ad4118e77869782ba8ac85284eb7207d4c",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0138.png",
+      "bytes": 154238,
+      "sha256": "693023ed80d5fa0d9aa01d8af444f742cabc13e969d3edd7efd8c555fda49560",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0139.png",
+      "bytes": 163002,
+      "sha256": "c018339cefeafec7459b331f2f956f265d39bccc96fcf1d00c98127dbbda066f",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0140.png",
+      "bytes": 161407,
+      "sha256": "527c86204a160478cc75492226e262a6d4c2c3db5f748fdb079cff2da521901b",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0141.png",
+      "bytes": 159060,
+      "sha256": "207fed1b1ab3047e0e102c7d69b05910173adc2b7f40cdb2bdb7bb58afae9ee5",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0142.png",
+      "bytes": 157933,
+      "sha256": "b1b8a0f0e7ac38675239ccc6db488ecff9e64cc77ada6ad52abe81d933c21212",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0143.png",
+      "bytes": 152401,
+      "sha256": "7eab0e2603fca06ff96a16238622d834546e7acaee3a0712d5ebb21c7179dafd",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0144.png",
+      "bytes": 150733,
+      "sha256": "8b3a8c6a50850bf55a98c6d985a5ebc69c17241b91842919e0e64da04886d618",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0145.png",
+      "bytes": 162133,
+      "sha256": "51f80d64c0aa6c30c1bfcdcbf8b420b135b525f01ba1e3f183c7e3cb47a256bd",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0146.png",
+      "bytes": 155163,
+      "sha256": "206c10d1c80395ee025028d4b2695c22735dc93cc171ccb07d5376448c5badcd",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0147.png",
+      "bytes": 152953,
+      "sha256": "2c20ba98a98118be3609568a58bfdebde937e645f253b2d5d1b86fa95f1e611a",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0148.png",
+      "bytes": 149692,
+      "sha256": "8dcc0df027cf75f2605d4a4c59a7ccf2ad8dd7a4a07832a34bddf69ee8b2d57f",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0149.png",
+      "bytes": 160754,
+      "sha256": "b9ad3330fd686c81feab7b072ccd554212c0af72093dd4043d5ef80a32f49762",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0150.png",
+      "bytes": 160294,
+      "sha256": "09c11a747b5766e341ee3b440d803c9e1bb68524fb88ee4fde153a70b8af42bd",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0151.png",
+      "bytes": 155484,
+      "sha256": "095fcd97d9e2bedc9208775b13cbca95f2e05ec72db8b01845a51e153d612699",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0152.png",
+      "bytes": 155930,
+      "sha256": "5dabf82e145f76aea996eb6725c61357825f4440f24ae1af69a073b1adfa9fa1",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0153.png",
+      "bytes": 167064,
+      "sha256": "f29de84401e5b202ee2303fc60fa4299c21d8696d46890d646bf978737839c9c",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0154.png",
+      "bytes": 162428,
+      "sha256": "ec74bb0fac942ec5d29e93bbb29830cfde2690541284cbad6b5b631e97741f10",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0155.png",
+      "bytes": 160080,
+      "sha256": "d174bdb829bb00740c0d2f31e2ce8a1b2529d73ce8be9a6cd2d9374a3a474692",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0156.png",
+      "bytes": 158443,
+      "sha256": "0e0c9c0ea8c50051837a0fc2c2edfd72c0ea91839f9b005e306cd35ae941757c",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0157.png",
+      "bytes": 156740,
+      "sha256": "1be2824b24315724ff7bac368dd0cc12785e4c73e7b43d7d0042d6c6244439ba",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0158.png",
+      "bytes": 153727,
+      "sha256": "c564382fb1d6a33945ff015c6ef970d28927a9d51dfbd9301fa989b4fab9b789",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0159.png",
+      "bytes": 165458,
+      "sha256": "af9c1f1dab880a666a86c8e6be84345127a245e26a981e16afea136054effeaf",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0160.png",
+      "bytes": 159817,
+      "sha256": "8703df8f58c899902819cc151698a606784a5a4a9d29e2e0283dd700b20c9b72",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0161.png",
+      "bytes": 167799,
+      "sha256": "fc2be2729040a672d736794e2f9a4282fc0fc606882a3d333fa607d6a35dc711",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0162.png",
+      "bytes": 167304,
+      "sha256": "b1ddfecbb5d49833c8bcfd9f6f28bec54552839c7e1f10b21a3591deb567e796",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0163.png",
+      "bytes": 160437,
+      "sha256": "d01987bce8cb685e6ba1b1298bf68189bd9e2c1db4e26237b2c08ac1519b54d6",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0164.png",
+      "bytes": 154197,
+      "sha256": "df23240904277118ac760bd53afbf46ee19299e0369bbec76a4d0cd31360aa8b",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0165.png",
+      "bytes": 154205,
+      "sha256": "b4947491facb0115ecfc923d2077b6b3e9d317537a5bd56a060c61abc54441ac",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0166.png",
+      "bytes": 153486,
+      "sha256": "4c094129a3f5dcd24b345a8b7bb92eef067aeaa72376970c3567097365b52824",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0167.png",
+      "bytes": 153375,
+      "sha256": "1705c7267baf7ba64db004954ba0aa40e4695372523561afe5b58a75ef792607",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0168.png",
+      "bytes": 150841,
+      "sha256": "13cdeaef8b14398cf236f2c4978919c12308dfe48f133587f163c973720e8ad2",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0169.png",
+      "bytes": 161966,
+      "sha256": "432d1276c56d7f72e9824fa01f2285ebd55bea839828258e69585d0cb7221c51",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0170.png",
+      "bytes": 157026,
+      "sha256": "d138df1340b110da0ea79812810a70928480a142693ca2940fcbc41affd326c3",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0171.png",
+      "bytes": 154649,
+      "sha256": "0f756b08ece95f3013fe8b3e943d4ddd67b50a642f7a625703124ba89c66fb56",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0172.png",
+      "bytes": 153873,
+      "sha256": "849f4b592a90ce4f41a6a36c131bce9b1f86307a0fe875e7a74cb1c459553714",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0173.png",
+      "bytes": 155102,
+      "sha256": "6220cc7b236b7a13f418514089fafed24fcb404e867d047bd0b01f362d675c81",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0174.png",
+      "bytes": 153413,
+      "sha256": "ac6998731de164123c8d631c1000f39544b26268cce660aa664e1902f597f892",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0175.png",
+      "bytes": 152840,
+      "sha256": "5bfb20c304a5b658642085a3700852b6f45ae57c79b13e90ca9c298507a1c4c5",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0176.png",
+      "bytes": 152896,
+      "sha256": "391a0bbf26a01f178d97484e20bed9033dcb898261ee27fbe10d200565b25a35",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0177.png",
+      "bytes": 162591,
+      "sha256": "9e9e9f5cc23422f442f74806849143194aff704f8c66b06eccc1bef9e3568d62",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0178.png",
+      "bytes": 157428,
+      "sha256": "96136d0d1554a00d84ebfd99201d77444f67978e30350e93306e09a9695b9387",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0179.png",
+      "bytes": 162965,
+      "sha256": "3c893f54ef30f9b965dc63e6aaecc72592d3c221f4f8ba1ad9c16b8220e8b1aa",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0180.png",
+      "bytes": 162708,
+      "sha256": "c4bea308e642da44daaef829be7af5da0b3d46e85356fa8e3b746433ebdb578e",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0181.png",
+      "bytes": 160806,
+      "sha256": "22252213dcbc451d4cf72f31238a356dcabe149431719c77c77d47548d8b8507",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0182.png",
+      "bytes": 160625,
+      "sha256": "6775aa539aa9d03090ef7539242562c4ab576ac9f30cde48db1f1e595d9a31c3",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0183.png",
+      "bytes": 159446,
+      "sha256": "005e612e73f6e2db5fd7f873916909902858b530814ed6b7404d4a0e476ac344",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0184.png",
+      "bytes": 155579,
+      "sha256": "89473f7e4fe74f66f05fcecfa9a237c75ab2594414c4800b112183cdcab9e945",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0185.png",
+      "bytes": 158161,
+      "sha256": "e97c5c71444c83d50704c533393def4e460e9bdc4aa726e963c2ed26263af8d2",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0186.png",
+      "bytes": 154721,
+      "sha256": "c697c029f99218c69a16517dad97285959bf6bd7759e2a95fc12e48819df05f8",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0187.png",
+      "bytes": 154840,
+      "sha256": "593f7de10015a06817df30813bef303a6c4259f811b70df4b79e32fc71afada3",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0188.png",
+      "bytes": 154517,
+      "sha256": "d1017a528183aae3ccf5cd91f250e63a70d546273ce072f1f09c04eeea9d0d04",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0189.png",
+      "bytes": 159340,
+      "sha256": "8ef99a7f283a36f93aeaedfbd2b46e981706121513d4fdef3faccfcf9f71ad61",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0190.png",
+      "bytes": 157256,
+      "sha256": "280c3b8e74ccf0c2f95cc9a1cc936d195f7889b961e65eb440e76a5bdd12d775",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0191.png",
+      "bytes": 157694,
+      "sha256": "91b4ebd31bf0363f11ae357eb69797ca8cd211a675733be0434ff401113e369b",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0192.png",
+      "bytes": 157776,
+      "sha256": "b7810c2691f43f9d3b4df86f53bc778ee6df5f67809f8a48d6ed51ccfa4bb8aa",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0193.png",
+      "bytes": 164508,
+      "sha256": "41062a8575b9ca1d302fe1be30a8e252bce0645fd7fec1c651e3a8cce603c06d",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0194.png",
+      "bytes": 162717,
+      "sha256": "4dbed1f352bf84ea8d614b80f9097f9706e8ca90d5cb3c88fdd8c1d3cd8110be",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0195.png",
+      "bytes": 161168,
+      "sha256": "f37bce8743ec747baa3165a7a2e929be5999361b4e224e8b73187d1618395af0",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0196.png",
+      "bytes": 156122,
+      "sha256": "f331a07b0155bd57760d215b1360073689a2d54c3676b1588dfe5d48ad026d0a",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0197.png",
+      "bytes": 155758,
+      "sha256": "a45cf3f2ce8ec1619f5dee47ae7e46fb09bc113ae5942acd308f89761d9f0475",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0198.png",
+      "bytes": 153088,
+      "sha256": "acaaa2eacc76ec8d898267131d3e4aaed44affeedfb8ea7b6671baa53081e5df",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0199.png",
+      "bytes": 159738,
+      "sha256": "707aecd3520d6148131ed4b9ef8e02b60ccc9c2a031ea22091791b3375ec681d",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0200.png",
+      "bytes": 159009,
+      "sha256": "651d52b70cd6a0c556eb4aac66327cafc76ec8a891049c60e8c1370ab0eaecc9",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0201.png",
+      "bytes": 162308,
+      "sha256": "01ce91ea154074a1b5d4cfa6d506d0e106028f086538655267ec0bf60ae9addd",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0202.png",
+      "bytes": 162236,
+      "sha256": "ccfb52bf1b88078d988f54ac4abc74bd04586252c8bc504cd4106b50b6ce309a",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0203.png",
+      "bytes": 155338,
+      "sha256": "203bb0c56c85b72db757ffde28ed7f4d83835e17ddad22950b7668e7e5124722",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0204.png",
+      "bytes": 153746,
+      "sha256": "3ea9e98f7c8fb6c62053e5826ab5cd3bb5d841a1192fb4297e6bae0dbfb79a5c",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0205.png",
+      "bytes": 154119,
+      "sha256": "86df3174d5e78a6423008ffa3e67f75018054332a48fc78036a7004e6ef02288",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0206.png",
+      "bytes": 152686,
+      "sha256": "849259746151ba4d8d8c97504ab3ba8ce9b8cfdcc99a86148e317fd852d3b641",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0207.png",
+      "bytes": 152816,
+      "sha256": "9d814018ef0dba70c56b2b48a1c6bfc8e97e0e5054a1f726ca385a964ec04230",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0208.png",
+      "bytes": 152169,
+      "sha256": "510fc15b04116a37b9b84cd21474079cb61c5da4dc232032bfc150c9616611db",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0209.png",
+      "bytes": 153324,
+      "sha256": "96de14ab355fd3c73600e2b9168788fe00db462584fadd149f8bb845834c78f5",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0210.png",
+      "bytes": 152029,
+      "sha256": "e94ad279a8503c632d310a657693ed2af8673c8dffd156ee6740c321e3fcffb3",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0211.png",
+      "bytes": 151957,
+      "sha256": "60c55bdd716784daa0b7ac8502fb4211d887d139db313bace740eae0a87b63b4",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0212.png",
+      "bytes": 151942,
+      "sha256": "967a9b9de5c4a8e4f9c3bd8e8ca7c3c7633b452c53dec917139de66b6c7d24e3",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0213.png",
+      "bytes": 154019,
+      "sha256": "0af9b4a743c72bcf10e563f945825f62fb30d6a76b61bd037819db1514a3a967",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0214.png",
+      "bytes": 151735,
+      "sha256": "b529e3a80673d255a8779cf910604aeac71f55bd7010ba4d57afe64eed00de5c",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0215.png",
+      "bytes": 151255,
+      "sha256": "893dce35eee28039b42e18d11964caebf23a23a30e93ae16d79dba0e16b41a6e",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0216.png",
+      "bytes": 150633,
+      "sha256": "06768de05bb77c7dfc5aec1e828d5aed68e83b1ca1307df93617c98782b670f3",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0217.png",
+      "bytes": 156884,
+      "sha256": "003aa9dc4fede980ae2c3b02b1803a4d4708333e4afa9bfc8542e3c7e87b9d1d",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0218.png",
+      "bytes": 152938,
+      "sha256": "b5da4468de657d0a157c2670e6e162778c36d5e3bd2a61bba6253e4e5f436d2d",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0219.png",
+      "bytes": 158187,
+      "sha256": "195fe527321ade850fc592c88b61d3414516a0767ab3f7cda5d5f056a963b4b8",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0220.png",
+      "bytes": 157949,
+      "sha256": "a97de86c25c062206848411d9a26288af0ed51af9bafc45747228158198c04b6",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0221.png",
+      "bytes": 157943,
+      "sha256": "860fbfefd61824cdc8297c99e8f9c675dc295acbeeeec95d5b8c0eb1a628549d",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0222.png",
+      "bytes": 157460,
+      "sha256": "078174d577a84aba61cee324cc1ec4ce3972a1394cbaa11a9ca1f03279cce13c",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0223.png",
+      "bytes": 156634,
+      "sha256": "2d9385b9a7c15f5002d87911aa6c6e92783503238700b2a64c7e6b8238a1ea1f",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0224.png",
+      "bytes": 153752,
+      "sha256": "d1547bbabc866b0f54373647a54248fe45aefa5da57d714d6fd048fe35767761",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0225.png",
+      "bytes": 159064,
+      "sha256": "b1731fc95baea7976b22a26dcc040f197458f5522aed30e106d25383a85d7acd",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0226.png",
+      "bytes": 159228,
+      "sha256": "395e82e57b2e87ca61acef119cd7f9346886f5de112df205f7b253a81a9b9178",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0227.png",
+      "bytes": 159359,
+      "sha256": "2e60e8f6880e3b20913ccbc08d9048d5d9767e2653fbdde8b436cbcdce7b60da",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0228.png",
+      "bytes": 156470,
+      "sha256": "0f0c0523d203e78dd5835621bf638b867cd332a8f041a8e1d7079246addda699",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0229.png",
+      "bytes": 159126,
+      "sha256": "1e4c8e45a19bf0e942e62b4636d679d30d33fc2f670d1bf268d629f155ee9de4",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0230.png",
+      "bytes": 157260,
+      "sha256": "f58f3736ddcfbf033468cff1eb8d214e2e99dfd420bae11b92c6d4eee1c6fdea",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0231.png",
+      "bytes": 157204,
+      "sha256": "8db823433ce4288a604fb4d26b78c15755eaa99e51eeb8d0fb4c83a4ceb74822",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0232.png",
+      "bytes": 157037,
+      "sha256": "9bb2b87cc7fea119d55ede8c7950a272d1a2d57484406b8ac9d691d204f2fa2d",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0233.png",
+      "bytes": 162666,
+      "sha256": "793787794fb76ffa6bb9e16ce3fdcc23b99a32f08f0ba6f425a7598859c9fced",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0234.png",
+      "bytes": 162117,
+      "sha256": "ef4212424125202ba8b297dd28a54b92e735f8374310137428d327c79d0f11ab",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0235.png",
+      "bytes": 162405,
+      "sha256": "857fe82b274f4bb652632e54ebb02352193c177359c367988030c39ac07021e1",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0236.png",
+      "bytes": 162307,
+      "sha256": "f8ad4b89cce9fb39084d486425c8c0cb3a32487fe05dbd851d1f17def2b3200e",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0237.png",
+      "bytes": 161113,
+      "sha256": "2261c105c9c849ece8a4b9f3bd46917a5db46c8ee9547195522922fd9cfdf123",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0238.png",
+      "bytes": 155895,
+      "sha256": "0dc310b5cac4257ec7be4e763c3367b170c09d3fc133dbd5bb589fee509253b3",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0239.png",
+      "bytes": 159074,
+      "sha256": "1b211ed4e4cf6d7f9c796a9a413a1328766e52fe924c0b55c98681b7286e3d14",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0240.png",
+      "bytes": 159224,
+      "sha256": "107d7f418c6b2b107d50d4de66a943506a1c51abaf59257d8f7ad01fc26abd00",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-frames/frame-0241.png",
+      "bytes": 161384,
+      "sha256": "96f49cf8b4d96950622130d1bc0c6283f0d1e7fe29b034645adc97f0728a6953",
+      "width": 854,
+      "height": 480,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "video-inbox/presenter-green.mp4",
+      "bytes": 2731127,
+      "sha256": "19bf6b77e20efc5c2a46405bbef7f75d84bc360f7169d3d10fb24abc0718bc8f",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "tags": {}
+          },
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 854,
+            "height": 480,
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "11580/481",
+            "tags": {}
+          }
+        ],
+        "format": {
+          "duration": "8.063991"
+        }
+      }
+    },
+    {
+      "path": "video-inbox/presenter-voice.wav",
+      "bytes": 1422612,
+      "sha256": "765232169abdb776203c30ce3a22523ad1ec4a31104302101cf88737ea889e4e",
+      "sampleRate": 44100,
+      "channels": 2,
+      "durationSeconds": 8.063990929705215,
+      "samplePeak": 0.80364990234375
+    }
+  ]
+}
